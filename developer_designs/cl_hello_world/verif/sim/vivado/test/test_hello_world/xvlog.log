@@ -1,0 +1,210 @@
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "/opt/Xilinx/Vivado/2018.2.op2258646/data/xsim/ip/xsim_ip.ini".
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/cl/developer_designs/common/design/cl_common_defines.vh" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/cl/developer_designs/cl_hello_world/design/cl_hello_world_defines.vh" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/ila_vio_counter/sim/ila_vio_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_vio_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/ila_0/sim/ila_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/sim/bd_a493.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_a493
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/sim/bd_a493_xsdbm_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_a493_xsdbm_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_icon2xsdb
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_bscan
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_bscan_switch_vec
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_bscan_switch
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_bscan_bufg_src
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_cmd_decode
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_icon
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_ctl_reg
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_ctl_out
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_rdreg
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_wrreg
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_drck
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_if
+INFO: [VRFC 10-2458] undeclared symbol rddata_rst_i, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:2137]
+INFO: [VRFC 10-2458] undeclared symbol datard_overflow, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:2184]
+INFO: [VRFC 10-2458] undeclared symbol datard_underflow, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:2185]
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_if_sel_mask
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_if_static_status
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_stat_reg
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_stat
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_sync
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_xsdbm_id
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:6268]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:6270]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:6300]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:6302]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:6334]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:6336]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:29]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:31]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:67]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:69]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:106]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:108]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:146]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:148]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:187]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:189]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:229]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:231]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:272]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:274]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:316]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:318]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:361]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:363]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:407]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:409]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:454]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:456]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:502]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:504]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:551]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:553]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:601]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:603]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:6416]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:6418]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:6450]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:6452]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:29]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:31]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:67]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:69]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:106]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:108]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:146]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:148]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:187]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:189]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:229]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:231]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:272]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:274]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:316]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:318]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:361]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:363]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:407]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:409]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:454]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:456]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:502]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:504]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:551]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:553]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:601]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core.vh:603]
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_xsdbm_id_vec
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:10180]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:10182]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:10213]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:10215]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:10246]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/xsdbm_v3_0_vl_rfs.v:10248]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:30]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:32]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:65]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:67]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:100]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:102]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:135]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:137]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:170]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:172]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:205]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:207]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:240]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:242]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:275]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:277]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:310]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:312]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:345]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:347]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:380]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:382]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:415]
+INFO: [VRFC 10-2458] undeclared symbol runtest_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:417]
+INFO: [VRFC 10-2458] undeclared symbol tms_int, assumed default net type wire [/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh:450]
+INFO: [Common 17-14] Message 'VRFC 10-2458' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_xsdbm
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_addr_ctl
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_burst_wdlen_ctl
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_bus_ctl
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_bus_ctl_cnt
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_bus_ctl_flg
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_bus_mstr2sl_if
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_rdfifo
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_rdfifo_netlist
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_wrfifo
+INFO: [VRFC 10-311] analyzing module xsdbm_v3_0_0_wrfifo_netlist
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_0/hdl/ltlib_v1_0_vl_rfs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_all_typeA
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_all_typeA_slice
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_allx_typeA
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_allx_typeA_nodelay
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_async_edge_xfer
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_bscan
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_buf
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_cfglut4
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_cfglut5
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_cfglut6
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_cfglut7
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_cfglut8
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_generic_memrd
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_generic_mux
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_match
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_match_nodelay
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_rising_edge_detection
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_startup
+INFO: [VRFC 10-311] analyzing module ltlib_v1_0_0_async_xfer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_1/sim/bd_a493_lut_buffer_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_a493_lut_buffer_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/ip/ip_1/hdl/lut_buffer_v2_0_vl_rfs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lut_buffer_v2_0_0_lut_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/bd_0/hdl/bd_a493_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_a493_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/cl_debug_bridge/sim/cl_debug_bridge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cl_debug_bridge
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/vio_0/sim/vio_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vio_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/axi_register_slice_light/sim/axi_register_slice_light.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_register_slice_light
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/axi_register_slice/sim/axi_register_slice.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_register_slice
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/axi_register_slice_light/hdl/axi_register_slice_v2_1_vl_rfs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_15_tdm_sample
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_15_srl_rtl
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_15_axic_register_slice
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_15_multi_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_15_middle_region_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_15_source_region_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_15_dest_region_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_15_single_slr
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_15_axic_reg_srl_fifo
+INFO: [VRFC 10-311] analyzing module axi_register_slice_v2_1_15_axi_register_slice
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/axi_register_slice_light/hdl/axi_infrastructure_v1_1_vl_rfs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_infrastructure_v1_1_0_axi2vector
+INFO: [VRFC 10-311] analyzing module axi_infrastructure_v1_1_0_axic_srl_fifo
+INFO: [VRFC 10-311] analyzing module axi_infrastructure_v1_1_0_vector2axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/axi_clock_converter_0/hdl/axi_clock_converter_v2_1_vl_rfs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_clock_converter_v2_1_14_axic_sync_clock_converter
+INFO: [VRFC 10-311] analyzing module axi_clock_converter_v2_1_14_axic_sample_cycle_ratio
+INFO: [VRFC 10-311] analyzing module axi_clock_converter_v2_1_14_lite_async
+INFO: [VRFC 10-311] analyzing module axi_clock_converter_v2_1_14_axi_clock_converter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/axi_clock_converter_0/hdl/fifo_generator_v13_2_rfs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_v13_2_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/common/shell_v04261818/design/ip/axi_clock_converter_0/sim/axi_clock_converter_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_clock_converter_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/centos/guide/aws-fpga/hdk/cl/developer_designs/cl_hello_world/design/cl_hello_world.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cl_hello_world
+INFO: [VRFC 10-311] analyzing module cl_bram_wrapper
+INFO: [VRFC 10-311] analyzing module systolictop
+WARNING: [VRFC 10-159] /* in comment [/home/centos/guide/aws-fpga/hdk/cl/developer_designs/cl_hello_world/design/cl_hello_world.sv:751]
+ERROR: [VRFC 10-1412] syntax error near ) [/home/centos/guide/aws-fpga/hdk/cl/developer_designs/cl_hello_world/design/cl_hello_world.sv:761]
+ERROR: [VRFC 10-156] */ outside comment [/home/centos/guide/aws-fpga/hdk/cl/developer_designs/cl_hello_world/design/cl_hello_world.sv:762]
+ERROR: [VRFC 10-2787] module cl_hello_world ignored due to previous errors [/home/centos/guide/aws-fpga/hdk/cl/developer_designs/cl_hello_world/design/cl_hello_world.sv:16]

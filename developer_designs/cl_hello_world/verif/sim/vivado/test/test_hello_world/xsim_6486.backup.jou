@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# xsim v2018.2_AR71275_op (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Apr 29 19:40:17 2019
+# Process ID: 6486
+# Current directory: /home/centos/guide/aws-fpga/hdk/cl/developer_designs/cl_hello_world/verif/sim/vivado/test_hello_world
+# Command line: xsim -log test_hello_world.log -mode tcl -source {xsim.dir/tb/xsim_script.tcl}
+# Log file: /home/centos/guide/aws-fpga/hdk/cl/developer_designs/cl_hello_world/verif/sim/vivado/test_hello_world/test_hello_world.log
+# Journal file: /home/centos/guide/aws-fpga/hdk/cl/developer_designs/cl_hello_world/verif/sim/vivado/test_hello_world/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/tb/xsim_script.tcl
+source /home/centos/guide/aws-fpga/hdk/cl/developer_designs/cl_hello_world/verif/scripts/waves.tcl

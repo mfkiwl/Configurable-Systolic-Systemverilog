@@ -1,0 +1,21 @@
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "/opt/Xilinx/Vivado/2018.2.op2258646/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2018.2.op2258646/bin/unwrapped/lnx64.o/xelab --initfile /opt/Xilinx/Vivado/2018.2.op2258646/data/xsim/ip/xsim_ip.ini --timescale 1ps/1ps --debug typical --relax --mt 8 -L axi_clock_converter_v2_1_11 -L generic_baseblocks_v2_1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_15 -L axi_register_slice_v2_1_12 -L fifo_generator_v13_2_1 -L fifo_generator_v13_1_4 -L axi_data_fifo_v2_1_11 -L axi_crossbar_v2_1_13 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm -sv_lib dpi --snapshot tb xil_defaultlib.tb xil_defaultlib.glbl xil_defaultlib.test_peek_poke 
+Using 8 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-93] sh is not declared under prefix tb [/home/centos/guide/aws-fpga/hdk/cl/examples/cl_hello_world/verif/tests/test_peek_poke.sv:27]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 6 for port pc_axi_awid [/home/centos/guide/aws-fpga/hdk/common/verif/models/sh_bfm/sh_bfm.sv:356]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 6 for port pc_axi_bid [/home/centos/guide/aws-fpga/hdk/common/verif/models/sh_bfm/sh_bfm.sv:378]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 6 for port pc_axi_arid [/home/centos/guide/aws-fpga/hdk/common/verif/models/sh_bfm/sh_bfm.sv:384]
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 6 for port pc_axi_rid [/home/centos/guide/aws-fpga/hdk/common/verif/models/sh_bfm/sh_bfm.sv:398]
+WARNING: [VRFC 10-278] actual bit length 6 differs from formal bit length 1 for port pc_axi_wid [/home/centos/guide/aws-fpga/hdk/common/verif/models/sh_bfm/sh_bfm.sv:457]
+WARNING: [VRFC 10-278] actual bit length 6 differs from formal bit length 1 for port pc_axi_wid [/home/centos/guide/aws-fpga/hdk/common/verif/models/sh_bfm/sh_bfm.sv:543]
+WARNING: [VRFC 10-278] actual bit length 6 differs from formal bit length 1 for port pc_axi_wid [/home/centos/guide/aws-fpga/hdk/common/verif/models/sh_bfm/sh_bfm.sv:629]
+WARNING: [VRFC 10-278] actual bit length 2 differs from formal bit length 3 for port s_axi_awprot [/home/centos/guide/aws-fpga/hdk/cl/examples/cl_hello_world/design/cl_hello_world.sv:118]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 64 for port probe1 [/home/centos/guide/aws-fpga/hdk/cl/examples/cl_hello_world/design/cl_hello_world.sv:343]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 64 for port probe4 [/home/centos/guide/aws-fpga/hdk/cl/examples/cl_hello_world/design/cl_hello_world.sv:346]
+WARNING: [VRFC 10-597] element index 7 into dq_temp is out of bounds [/home/centos/guide/aws-fpga/hdk/common/verif/models/ddr4_model/ddr4_model.sv:1571]
+WARNING: [VRFC 10-597] element index 7 into dq_temp is out of bounds [/home/centos/guide/aws-fpga/hdk/common/verif/models/ddr4_model/ddr4_model.sv:1573]
+WARNING: [VRFC 10-1783] select index 2 into rrst_reg is out of bounds [/wrk/2018.2/continuous/2018_06_14_2258646/packages/customer/vivado/data/ip/xilinx/fifo_generator_v13_1/simulation/fifo_generator_vlog_beh.v:4885]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

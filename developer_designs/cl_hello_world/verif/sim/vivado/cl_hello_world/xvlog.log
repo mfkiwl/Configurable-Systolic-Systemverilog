@@ -1,0 +1,2 @@
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "/opt/Xilinx/Vivado/2018.2.op2258646/data/xsim/ip/xsim_ip.ini".
+ERROR: [XSIM 43-4316] Can not find file: /home/centos/guide/aws-fpga/hdk/cl/developer_designs/cl_hello_world/verif/scripts/../../verif/tests/cl_hello_world.sv

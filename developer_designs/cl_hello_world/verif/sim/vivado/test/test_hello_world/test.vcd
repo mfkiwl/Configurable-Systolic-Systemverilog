@@ -1,0 +1,30 @@
+$date
+   Tue Apr 23 19:36:59 2019
+$end
+$version
+  2018.2
+$end
+$timescale
+  1ps
+$end
+$scope module test_hello_world $end
+$var reg 32 ! rdata [31:0] $end
+$var reg 16 " vdip_value [15:0] $end
+$var reg 16 # vled_value [15:0] $end
+$var parameter 6 $ AXI_ID [5:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx !
+bx "
+bx #
+b0 $
+$end
+#5050000
+b0 "
+#5170000
+b11101111101111101010110111011110 !
+#5230000
+b1011111011101111 !
+b0 #
